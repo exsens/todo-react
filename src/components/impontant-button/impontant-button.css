@@ -1,0 +1,12 @@
+.impontant-button {
+  border: 1px green solid;
+  border-radius: 5px;
+  padding: 0;
+}
+
+.impontant-button svg {
+  width: 17px;
+  height: 15px;
+  fill: green;
+  vertical-align: baseline;
+}

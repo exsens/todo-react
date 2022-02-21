@@ -1,0 +1,23 @@
+.trash-button {
+  border: 1px rgb(16, 167, 255) solid;
+  border-radius: 5px;
+  padding: 0;
+}
+
+.trash-button svg {
+  width: 17px;
+  height: 15px;
+  fill: rgb(16, 167, 255);
+  vertical-align: baseline;
+}
+
+.trash-button.selected {
+  border-color: orangered;
+}
+
+.trash-button.selected svg {
+  width: 17px;
+  height: 15px;
+  fill: orangered;
+  vertical-align: baseline;
+}
