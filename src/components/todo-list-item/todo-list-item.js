@@ -9,10 +9,20 @@ import './todo-list-item.css';
 export default class TodoListItem extends Component {
 
   render() {
-    const { label, onDeleted, onToggleDone, onToggleImportant } = this.props;
+    const { label, done, important, onDeleted, onToggleDone, onToggleImportant } = this.props;
+    
+    let className = "d-flex todo-list-item";
+
+    if (done) {
+      className += " done"
+    }
+
+    if (important) {
+      className += " important"
+    }
 
     return (
-      <div className={ "d-flex todo-list-item" }>
+      <div className={ className }>
         <span
           className="todo-list-item-label"
           onClick={ onToggleDone }>
