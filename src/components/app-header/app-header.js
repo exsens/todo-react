@@ -5,8 +5,8 @@ const AppHeader = ( {todo, done} ) => {
 
   return (
     <div className="d-flex app-header">
-      <h1>Todo List</h1>
-      <h2>{ todo } more to do, { done } done</h2>
+      <h1>Список задач</h1>
+      <h2>{ todo } осталось, { done } выполнены:</h2>
     </div>
 
   )
